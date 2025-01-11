@@ -1,6 +1,7 @@
-{ 
-  "2025-23-9",
+{
+  "2025-23-9": "Courses",
   "termux_course_1": "https://example.com/courses/termux1",
-  "python_course_2": "https://example.com/courses/python2",
+  "2025-23-11": "Tools",
+  "termux_course_2": "https://example.com/courses/termux2",
   "ethical_hacking_course": "https://example.com/courses/hacking1"
 }
