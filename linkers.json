@@ -1,5 +1,21 @@
-{
-  "CISSP_1": "https://example.com/courses/termux1",
-  "python_course_2": "https://example.com/courses/python2",
-  "ethical_hacking_course": "https://example.com/courses/hacking1"
-}
+[
+  {
+    "date": "2025-01-11",
+    "courses": {
+      "CISSP_1": "https://example.com/courses/termux1",
+      "python_course_2": "https://example.com/courses/python2"
+    }
+  },
+  {
+    "date": "2025-01-12",
+    "courses": {
+      "ethical_hacking_course": "https://example.com/courses/hacking1"
+    }
+  },
+  {
+    "date": "2025-01-13",
+    "courses": {
+      "AWS_course": "https://example.com/courses/aws1"
+    }
+  }
+]
