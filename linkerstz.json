@@ -1,10 +1,10 @@
 {
-  "utm_campaign_1": {
+  "utm_content_1": {
     "password": "encodedPassword123",
     "redirectUrl": "aHR0cHM6Ly9leGFtcGxlLmNvbQ==",
     "code": "EXAMPLE123"
   },
-  "utm_campaign_2": {
+  "utm_content_2": {
     "password": "encodedPassword456",
     "redirectUrl": "aHR0cHM6Ly9hb3RoZXJleGFtcGxlLmNvbQ==",
     "code": "EXAMPLE456"
