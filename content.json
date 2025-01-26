@@ -66,15 +66,33 @@
     "additionalInfo": "Example output:\n\nFound 5 hosts:\n192.168.1.10 is up\n192.168.1.11 is down\n192.168.1.12 is up\n192.168.1.13 is up\n192.168.1.14 is up\n\nPerforming port scan on each host...\n\nScanning 192.168.1.10:\nPort 22 is open\nPort 80 is closed\nPort 443 is closed\n\nScanning 192.168.1.12:\nPort 22 is closed\nPort 80 is open\nPort 443 is closed\n\nScanning 192.168.1.13:\nPort 22 is closed\nPort 80 is closed\nPort 443 is closed\n\nScanning 192.168.1.14:\nPort 22 is closed\nPort 80 is closed\nPort 443 is closed"
   },
   "wifi-hacker-python": {
-    "title": "Bluetooth DDoS Attack",
-    "description": "This code demonstrates a basic Bluetooth DDoS attack using Python.",
+    "title": "WiFi Scanner Script",
+    "description": "This script will scan the specified WiFi interface for WiFi access points. It captures packets and filters out Beacon frames to extract the BSSID (MAC address) and SSID (network name) of each access point.",
     "code": [
       "from scapy.all import *",
-      "from bluepy.btle import Peripheral",
-      "peripheral = Peripheral('00:11:22:33:44:55')",
-      "for _ in range(100):",
-      "  peripheral.writeCharacteristic(0x15, b'Attack')"
+      "",
+      "def scan_wifi(interface):",
+      "    # Create a PacketList to store the results",
+      "    results = PacketList()",
+      "    ",
+      "    # Send a probe request to the specified interface",
+      "    pkts = sniff(iface=interface, prn=lambda x: results.append(x))",
+      "    ",
+      "    # Return the results",
+      "    return results",
+      "",
+      "interface = \"wlan0\"  # Replace with your WiFi interface",
+      "results = scan_wifi(interface)",
+      "",
+      "    # Check if the packet is a Beacon frame (contains WiFi access point information)",
+      "    if pkt.haslayer(Dot11Beacon):",
+      "        # Extract the BSSID (MAC address) and SSID (network name)",
+      "        bssid = pkt.addr2",
+      "        ssid = pkt.info.decode()",
+      "        ",
+      "        # Print the BSSID and SSID",
+      "        print(f\"BSSID: {bssid}, SSID: {ssid}\")"
     ],
-    "additionalInfo": "This code targets a Bluetooth device."
+    "additionalInfo": "This script uses the scapy library to capture and analyze WiFi packets. The sniff function is used to capture packets on the specified interface, and the Dot11Beacon layer is used to filter out Beacon frames containing access point information. Example output:\n\nBSSID: 00:11:22:33:44:55, SSID: ExampleWiFi\nBSSID: 66:77:88:99:AA:BB, SSID: OtherWiFi"
   }
 }
