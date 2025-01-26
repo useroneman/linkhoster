@@ -1,10 +1,12 @@
 {
   "utm_campaign_1": {
-    "password": "WkVVUklTMQ==",
-    "redirectUrl": "aHR0cHM6Ly93d3cubm9vYi1oYWNrZXJzLmNvbS8yMDI1LzAxL2hvdy10by1oYWNrLXdoYXRzLWFwcC1pbi10ZXJtdXgtdXNpbmctemV1cmlzLmh0bWw="
+    "password": "encodedPassword123",
+    "redirectUrl": "aHR0cHM6Ly9leGFtcGxlLmNvbQ==",
+    "code": "EXAMPLE123"
   },
   "utm_campaign_2": {
-    "password": "U1hZWEFVRA==",
-    "redirectUrl": "aHR0cHM6Ly93d3cubm9vYi1oYWNrZXJzLmNvbS8yMDI1LzAxL3l0aG9waWRlLXN0b3J5LXJlZGlyZWN0aW9u"
+    "password": "encodedPassword456",
+    "redirectUrl": "aHR0cHM6Ly9hb3RoZXJleGFtcGxlLmNvbQ==",
+    "code": "EXAMPLE456"
   }
 }
