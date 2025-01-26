@@ -64,7 +64,7 @@
       "            print(f\"Port {port} is {ports[port]['state']}\")"
     ],
     "additionalInfo": "Example output:\n\nFound 5 hosts:\n192.168.1.10 is up\n192.168.1.11 is down\n192.168.1.12 is up\n192.168.1.13 is up\n192.168.1.14 is up\n\nPerforming port scan on each host...\n\nScanning 192.168.1.10:\nPort 22 is open\nPort 80 is closed\nPort 443 is closed\n\nScanning 192.168.1.12:\nPort 22 is closed\nPort 80 is open\nPort 443 is closed\n\nScanning 192.168.1.13:\nPort 22 is closed\nPort 80 is closed\nPort 443 is closed\n\nScanning 192.168.1.14:\nPort 22 is closed\nPort 80 is closed\nPort 443 is closed"
-}
+},
 
   "utm1": {
     "title": "Bluetooth DDoS Attack",
@@ -77,5 +77,5 @@
       "  peripheral.writeCharacteristic(0x15, b'Attack')"
     ],
     "additionalInfo": "This code targets a Bluetooth device."
-  }
+  },
 }
