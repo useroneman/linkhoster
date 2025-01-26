@@ -1,5 +1,48 @@
 {
+  {
   "utm1": {
+    "title": "Bash Example",
+    "description": "Click the button below to copy the Bash script.",
+    "code": [
+      "def bruteforce(target_password):",
+      "    characters = \"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+-=[]{};':,./<>?\"",
+      "    password_length = len(target_password)",
+      "",
+      "    for i in range(password_length):",
+      "        for char in characters:",
+      "            if char == target_password[i]:",
+      "                print(f\"Password found: {char}\")",
+      "                break",
+      "            else:",
+      "                print(f\"Trying: {char}\")",
+      "",
+      "# Usage guide and examples",
+      "print(\"Bruteforce Password Cracker\")",
+      "print(\"Usage:\")",
+      "print(\"   python bruteforce.py <target_password>\")",
+      "print(\"Examples:\")",
+      "print(\"   python bruteforce.py abc123\")",
+      "print(\"   python bruteforce.py password123\")",
+      "print(\"   python bruteforce.py !@#$%^&*()\")",
+      "",
+      "# Test the script with different target passwords",
+      "target_password = \"password123\"",
+      "bruteforce(target_password)"
+    ],
+    "additionalInfo": "This is a basic brute force password cracker in Python. It demonstrates how a script can attempt to guess a target password by checking each character."
+  }
+}
+  "utm2": {
+    "title": "GET Request Example",
+    "description": "This code demonstrates how to send a GET request using Python.",
+    "code": [
+      "import requests",
+      "response = requests.get('https://example.com')",
+      "print(response.text)"
+    ],
+    "additionalInfo": "This code fetches content from a website."
+  }
+   "utm1": {
     "title": "Bluetooth DDoS Attack",
     "description": "This code demonstrates a basic Bluetooth DDoS attack using Python.",
     "code": [
@@ -11,14 +54,4 @@
     ],
     "additionalInfo": "This code targets a Bluetooth device."
   },
-  "utm2": {
-    "title": "GET Request Example",
-    "description": "This code demonstrates how to send a GET request using Python.",
-    "code": [
-      "import requests",
-      "response = requests.get('https://example.com')",
-      "print(response.text)"
-    ],
-    "additionalInfo": "This code fetches content from a website."
-  }
 }
