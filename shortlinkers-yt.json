@@ -4,6 +4,11 @@
     "redirectUrl": "aHR0cHM6Ly9leGFtcGxlLmNvbQ==",
     "code": "EXAMPLE123"
   },
+  "NBH-ZEURS-PRT1": {
+    "password": "emV1cmlzMXA=",
+    "redirectUrl": "aHR0cHM6Ly93d3cubm9vYmhhY2t0dWJlLmNvbS8yMDI1LzAxL2hvdy10by1oYWNrLXdoYXRzLWFwcC1mcm9tLXRlcm11eC11c2luZy16ZXVyaXMtcGFydC0xLmh0bWw=",
+    "code": "NBH-ZEURS-PRT1"
+  },
   "utm_content_2": {
     "password": "encodedPassword456",
     "redirectUrl": "aHR0cHM6Ly9hb3RoZXJleGFtcGxlLmNvbQ==",
