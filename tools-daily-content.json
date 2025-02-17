@@ -44,7 +44,7 @@
         "./nethunter-in-termux.sh"
     ],
     "additionalInfo": "NetHunter-In-Termux installs Kali Linux NetHunter in Termux without the need for root access on your Android device.\n\nExample usage:\n1. Update and install git on Termux.\n2. Clone the NetHunter-In-Termux repository and navigate to the directory.\n3. Make the installation script executable and run it to install NetHunter.\n4. Use 'nethunter' command to start the Kali NetHunter CLI interface.\n5. 'nethunter kex passwd' sets the Kex password (only needed for the first time).\n6. 'nethunter kex &' starts the VNC server.\n7. 'nethunter kex stop' stops the VNC server.\n8. Run specific commands within the NetHunter environment using 'nethunter <command>'.\n9. 'nethunter -r' starts NetHunter CLI as root."
-}  
+},  
 "camphish": {
     "title": "Camera Phishing Tool",
     "description": "This tool captures images from the target's front camera or PC webcam by sending a malicious link.",
