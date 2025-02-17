@@ -10,41 +10,19 @@
     ],
     "additionalInfo": "Seeker hosts a fake webpage that requests location permissions from the target. If the target grants the location permission, it captures their geographical data.\n\nExample usage:\n1. Clone the repository and navigate to the directory.\n2. Make the install script executable and run it.\n3. The tool sets up a server hosting the fake location request page.\n4. Once the target grants location permission, their location is captured."
 },
-  "hero-tool-2": {
-    "title": "Network and Port Scanner",
-    "description": "This script uses the nmap library to scan the network for live hosts and then performs a port scan on each host.",
+"Brutex": {
+    "title": "BruteX - Automated Brute Force Tool",
+    "description": "BruteX is an automated brute force tool that targets and attempts to crack passwords for all services running on a given target system.",
     "code": [
-      "import nmap",
-      "import socket",
-      "",
-      "def scan_network(network_prefix):",
-      "    nm = nmap.PortScanner()",
-      "    nm.scan(hosts=f\"{network_prefix}.0/24\", arguments=\"-sP\")",
-      "    hosts_list = [(x, nm[x]['status']['state']) for x in nm.all_hosts()]",
-      "    return hosts_list",
-      "",
-      "def port_scan(host, ports):",
-      "    nm = nmap.PortScanner()",
-      "    nm.scan(host, ports=ports)",
-      "    return nm[host]['tcp']",
-      "",
-      "# Example usage",
-      "network_prefix = \"192.168.1\"",
-      "hosts = scan_network(network_prefix)",
-      "print(f\"Found {len(hosts)} hosts:\")",
-      "for host, status in hosts:",
-      "    print(f\"{host} is {status}\")",
-      "",
-      "print(\"\\nPerforming port scan on each host...\")",
-      "for host, status in hosts:",
-      "    if status == \"up\":",
-      "        print(f\"\\nScanning {host}:\")",
-      "        ports = port_scan(host, \"22,80,443\")",
-      "        for port in ports:",
-      "            print(f\"Port {port} is {ports[port]['state']}\")"
+        "apt update",
+        "apt upgrade",
+        "apt install git -y",
+        "git clone https://github.com/1N3/BruteX.git",
+        "cd BruteX",
+        "./install.sh"
     ],
-    "additionalInfo": "Example output:\n\nFound 5 hosts:\n192.168.1.10 is up\n192.168.1.11 is down\n192.168.1.12 is up\n192.168.1.13 is up\n192.168.1.14 is up\n\nPerforming port scan on each host...\n\nScanning 192.168.1.10:\nPort 22 is open\nPort 80 is closed\nPort 443 is closed\n\nScanning 192.168.1.12:\nPort 22 is closed\nPort 80 is open\nPort 443 is closed\n\nScanning 192.168.1.13:\nPort 22 is closed\nPort 80 is closed\nPort 443 is closed\n\nScanning 192.168.1.14:\nPort 22 is closed\nPort 80 is closed\nPort 443 is closed"
-  },
+    "additionalInfo": "BruteX automatically brute forces all services running on the target machine by attempting password cracking on exposed services.\n\nExample usage:\n1. Update and upgrade the system packages.\n2. Install git and clone the BruteX repository.\n3. Navigate to the BruteX directory and install the required dependencies.\n4. Run BruteX against a target system by specifying the target's IP and port.\n5. BruteX will attempt to crack passwords for all detected services."
+},
   "wifi-hacker-python": {
     "title": "WiFi Scanner Script",
     "description": "This script will scan the specified WiFi interface for WiFi access points. It captures packets and filters out Beacon frames to extract the BSSID (MAC address) and SSID (network name) of each access point.",
