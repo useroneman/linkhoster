@@ -95,6 +95,16 @@
     ],
     "additionalInfo": "This script uses the scapy library to capture and analyze WiFi packets. The sniff function is used to capture packets on the specified interface, and the Dot11Beacon layer is used to filter out Beacon frames containing access point information. Example output:\n\nBSSID: 00:11:22:33:44:55, SSID: ExampleWiFi\nBSSID: 66:77:88:99:AA:BB, SSID: OtherWiFi"
   },
+"Anonphisher": {
+    "title": "Anonphisher - Automated Phishing Tool",
+    "description": "A phishing tool by AnonyminHack5 that provides 51+ phishing templates and an inbuilt reverse proxy to generate and send phishing links easily.",
+    "code": [
+      "git clone https://github.com/TermuxHackz/anonphisher",
+      "cd anonphisher",
+      "bash anonphisher.sh"
+    ],
+    "additionalInfo": "Anonphisher is a fully automated phishing tool made with pure Bash script. It allows users to phish various websites using pre-built templates and a built-in reverse proxy.\n\nExample usage:\n1. Clone the repository and navigate to the directory.\n2. Run the script and select a phishing template.\n3. Send the generated phishing link to the target.\n4. Captured credentials will be displayed in the terminal."
+},
 "camphish": {
     "title": "Camera Phishing Tool",
     "description": "This tool captures images from the target's front camera or PC webcam by sending a malicious link.",
