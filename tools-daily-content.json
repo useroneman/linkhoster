@@ -94,5 +94,16 @@
       "        print(f\"BSSID: {bssid}, SSID: {ssid}\")"
     ],
     "additionalInfo": "This script uses the scapy library to capture and analyze WiFi packets. The sniff function is used to capture packets on the specified interface, and the Dot11Beacon layer is used to filter out Beacon frames containing access point information. Example output:\n\nBSSID: 00:11:22:33:44:55, SSID: ExampleWiFi\nBSSID: 66:77:88:99:AA:BB, SSID: OtherWiFi"
-  }
+  },
+"camphish": {
+    "title": "Camera Phishing Tool",
+    "description": "This tool captures images from the target's front camera or PC webcam by sending a malicious link.",
+    "code": [
+      "apt-get -y install php openssh git wget",
+      "git clone https://github.com/techchipnet/CamPhish",
+      "cd CamPhish",
+      "bash camphish.sh"
+    ],
+    "additionalInfo": "Once executed, this script sets up a phishing page to trick the target into allowing webcam access.\n\nExample usage:\n1. Run the script and choose a phishing method.\n2. Send the generated link to the target.\n3. If the target clicks the link and grants access, images will be captured and saved."
+    }
 }
