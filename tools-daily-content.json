@@ -1,35 +1,15 @@
 {
-  "hero-tool-1": {
-    "title": "Bash Example",
-    "description": "Click the button below to copy the Bash script.",
+"Seeker": {
+    "title": "Seeker - Location Permission Phishing Tool",
+    "description": "Seeker is a simple tool that hosts a fake website requesting location permissions, similar to many popular location-based websites. If the target grants permission, their location data is captured.",
     "code": [
-      "def bruteforce(target_password):",
-      "    characters = \"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+-=[]{};':,./<>?\"",
-      "    password_length = len(target_password)",
-      "",
-      "    for i in range(password_length):",
-      "        for char in characters:",
-      "            if char == target_password[i]:",
-      "                print(f\"Password found: {char}\")",
-      "                break",
-      "            else:",
-      "                print(f\"Trying: {char}\")",
-      "",
-      "# Usage guide and examples",
-      "print(\"Bruteforce Password Cracker\")",
-      "print(\"Usage:\")",
-      "print(\"   python bruteforce.py <target_password>\")",
-      "print(\"Examples:\")",
-      "print(\"   python bruteforce.py abc123\")",
-      "print(\"   python bruteforce.py password123\")",
-      "print(\"   python bruteforce.py !@#$%^&*()\")",
-      "",
-      "# Test the script with different target passwords",
-      "target_password = \"password123\"",
-      "bruteforce(target_password)"
+        "git clone https://github.com/thewhiteh4t/seeker.git",
+        "cd seeker/",
+        "chmod +x install.sh",
+        "./install.sh"
     ],
-    "additionalInfo": "This is a basic brute force password cracker in Python. It demonstrates how a script can attempt to guess a target password by checking each character."
-  },
+    "additionalInfo": "Seeker hosts a fake webpage that requests location permissions from the target. If the target grants the location permission, it captures their geographical data.\n\nExample usage:\n1. Clone the repository and navigate to the directory.\n2. Make the install script executable and run it.\n3. The tool sets up a server hosting the fake location request page.\n4. Once the target grants location permission, their location is captured."
+},
   "hero-tool-2": {
     "title": "Network and Port Scanner",
     "description": "This script uses the nmap library to scan the network for live hosts and then performs a port scan on each host.",
