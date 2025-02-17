@@ -23,36 +23,6 @@
     ],
     "additionalInfo": "BruteX automatically brute forces all services running on the target machine by attempting password cracking on exposed services.\n\nExample usage:\n1. Update and upgrade the system packages.\n2. Install git and clone the BruteX repository.\n3. Navigate to the BruteX directory and install the required dependencies.\n4. Run BruteX against a target system by specifying the target's IP and port.\n5. BruteX will attempt to crack passwords for all detected services."
 },
-  "wifi-hacker-python": {
-    "title": "WiFi Scanner Script",
-    "description": "This script will scan the specified WiFi interface for WiFi access points. It captures packets and filters out Beacon frames to extract the BSSID (MAC address) and SSID (network name) of each access point.",
-    "code": [
-      "from scapy.all import *",
-      "",
-      "def scan_wifi(interface):",
-      "    # Create a PacketList to store the results",
-      "    results = PacketList()",
-      "    ",
-      "    # Send a probe request to the specified interface",
-      "    pkts = sniff(iface=interface, prn=lambda x: results.append(x))",
-      "    ",
-      "    # Return the results",
-      "    return results",
-      "",
-      "interface = \"wlan0\"  # Replace with your WiFi interface",
-      "results = scan_wifi(interface)",
-      "",
-      "    # Check if the packet is a Beacon frame (contains WiFi access point information)",
-      "    if pkt.haslayer(Dot11Beacon):",
-      "        # Extract the BSSID (MAC address) and SSID (network name)",
-      "        bssid = pkt.addr2",
-      "        ssid = pkt.info.decode()",
-      "        ",
-      "        # Print the BSSID and SSID",
-      "        print(f\"BSSID: {bssid}, SSID: {ssid}\")"
-    ],
-    "additionalInfo": "This script uses the scapy library to capture and analyze WiFi packets. The sniff function is used to capture packets on the specified interface, and the Dot11Beacon layer is used to filter out Beacon frames containing access point information. Example output:\n\nBSSID: 00:11:22:33:44:55, SSID: ExampleWiFi\nBSSID: 66:77:88:99:AA:BB, SSID: OtherWiFi"
-  },
 "Anonphisher": {
     "title": "Anonphisher - Automated Phishing Tool",
     "description": "A phishing tool by AnonyminHack5 that provides 51+ phishing templates and an inbuilt reverse proxy to generate and send phishing links easily.",
@@ -63,6 +33,18 @@
     ],
     "additionalInfo": "Anonphisher is a fully automated phishing tool made with pure Bash script. It allows users to phish various websites using pre-built templates and a built-in reverse proxy.\n\nExample usage:\n1. Clone the repository and navigate to the directory.\n2. Run the script and select a phishing template.\n3. Send the generated phishing link to the target.\n4. Captured credentials will be displayed in the terminal."
 },
+"NethunterIntermux": {
+    "title": "NetHunter-In-Termux - Kali Linux NetHunter on Termux",
+    "description": "NetHunter-In-Termux is a simple Bash script that installs Kali Linux NetHunter on an unrooted Android device using Termux. It allows users to access a full Kali NetHunter command-line interface on Android.",
+    "code": [
+        "apt update && apt install git",
+        "git clone https://github.com/amanbytes/NetHunter-In-Termux nethunter",
+        "cd nethunter",
+        "chmod +x nethunter-in-termux.sh",
+        "./nethunter-in-termux.sh"
+    ],
+    "additionalInfo": "NetHunter-In-Termux installs Kali Linux NetHunter in Termux without the need for root access on your Android device.\n\nExample usage:\n1. Update and install git on Termux.\n2. Clone the NetHunter-In-Termux repository and navigate to the directory.\n3. Make the installation script executable and run it to install NetHunter.\n4. Use 'nethunter' command to start the Kali NetHunter CLI interface.\n5. 'nethunter kex passwd' sets the Kex password (only needed for the first time).\n6. 'nethunter kex &' starts the VNC server.\n7. 'nethunter kex stop' stops the VNC server.\n8. Run specific commands within the NetHunter environment using 'nethunter <command>'.\n9. 'nethunter -r' starts NetHunter CLI as root."
+}  
 "camphish": {
     "title": "Camera Phishing Tool",
     "description": "This tool captures images from the target's front camera or PC webcam by sending a malicious link.",
