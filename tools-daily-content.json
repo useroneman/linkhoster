@@ -1,4 +1,16 @@
 {
+"Phoneinfoga": {
+        "title": "Phoneinfoga",
+        "description": "PhoneInfoga is one of the most advanced tools to scan international phone numbers. It allows you to first gather basic information such as country, area, carrier and line type, then use various techniques to try to find the VoIP provider or identify the owner",
+        "code": [
+            "apt update",
+            "apt upgrade",
+            "apt install wget -y",
+            "https://raw.githubusercontent.com/ExpertAnonymous/PhoneInfoga/master/phoneinfoga.sh -q",
+            "bash phoneinfoga.sh"
+        ],
+        "additionalInfo": "Check if phone number exists\nGather basic information such as country, line type and carrier\nOSINT footprinting using external APIs, phone books & search engines"
+    },
 "DDoS-Ripper": {
         "title": "DDoS-Ripper",
         "description": "A Distributable Denied-of-Service (DDOS) attack server that cuts off targets or surrounding infrastructure in a flood of Internet traffic",
