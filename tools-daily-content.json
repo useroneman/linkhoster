@@ -1,4 +1,20 @@
 {
+"Sixtyninephishing": {
+        "title": "SixtyNinePhishing",
+        "description": "Simple and beginner friendly automated phishing simulation page creator.",
+        "code": [
+            "apt update && apt upgrade",
+            "pkg install git",
+            "pkg install wget",
+            "pkg install curl",
+            "pkg install php",
+            "git clone https://github.com/Akshay-Arjun/69phisher.git",
+            "cd 69phisher",
+            "chmod 777 69phisher.sh",
+            "bash 69phisher.sh"
+        ],
+        "additionalInfo": "URL Masking Technology\nCross-Platform Support (All Unix/Linux Systems)\nAuto-Configured Tunneling (Cloudflared/Localhost)"
+    },
 "Allhackingtools": {
         "title": "Allhackingtools",
         "description": "AllHackingTools: is a system designed to automate the download process and install various tools for penetration testing.",
