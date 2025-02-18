@@ -1,4 +1,18 @@
 {
+"Wacrasher": {
+        "title": "Wacrasher",
+        "description": "WhatsApp Crash With one Message\nCrash Whatsapp by sending Only One Text.",
+        "code": [
+            "apt update && apt upgrade -y",
+            "pkg install python git -y",
+            "pip install colorama",
+            "git clone https://github.com/XPH4N70M/WA_CRASHER",
+            "cd WA_CRASHER",
+            "chmod +x WA_CRASHER.py",
+            "python3 WA_CRASHER.py"
+        ],
+        "additionalInfo": "python3 WA_CRASHER.py"
+    },
 "Phoneinfoga": {
         "title": "Phoneinfoga",
         "description": "PhoneInfoga is one of the most advanced tools to scan international phone numbers. It allows you to first gather basic information such as country, area, carrier and line type, then use various techniques to try to find the VoIP provider or identify the owner",
