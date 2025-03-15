@@ -1,4 +1,5 @@
 {
+"date": "Day10#Week2",    
 "Sixtyninephishing": {
         "title": "SixtyNinePhishing",
         "description": "Simple and beginner friendly automated phishing simulation page creator.",
@@ -15,6 +16,7 @@
         ],
         "additionalInfo": "URL Masking Technology\nCross-Platform Support (All Unix/Linux Systems)\nAuto-Configured Tunneling (Cloudflared/Localhost)"
     },
+"date": "Day10#Week2",
 "Allhackingtools": {
         "title": "Allhackingtools",
         "description": "AllHackingTools: is a system designed to automate the download process and install various tools for penetration testing.",
@@ -123,6 +125,23 @@
             "bash tools-installer.sh"
         ],
         "additionalInfo": "Install and use"
+    },
+"Osintgram": {
+        "title": "Osint Tool for Instagram",
+        "description": "Instagram investigation tool for termux and other os.",
+        "code": [
+            "apt update",
+            "apt upgrade",
+            "pkg install python3",
+            "pkg install git",
+            "git clone https://github.com/Whomrx666/osintgram.git",
+            "cd osintgram",
+            "pip install -r requirements.txt",
+            "bash install.sh",
+            "python -m pip install instaloader",
+            "python3 osintgram.py"
+        ],
+        "additionalInfo": "Install and use the tool."
     },
 "Camphish": {
     "title": "Camera Phishing Tool",
