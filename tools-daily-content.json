@@ -143,6 +143,19 @@
         ],
         "additionalInfo": "Install and use the tool."
     },
+"Iptracer": {
+        "title": "Iptracer Ip Tracking Tool",
+        "description": "Tool can be used to track ip location with good results.",
+        "code": [
+            "apt update",
+            "apt install git -y",
+            "git clone https://github.com/rajkumardusad/IP-Tracer",
+            "cd IP-Trace",
+            "chmod +x install",
+            "sh install or ./install"
+        ],
+        "additionalInfo": "Install and use in termux no root needed."
+    },
 "Camphish": {
     "title": "Camera Phishing Tool",
     "description": "This tool captures images from the target's front camera or PC webcam by sending a malicious link.",
