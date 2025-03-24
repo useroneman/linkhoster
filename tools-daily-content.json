@@ -172,6 +172,16 @@
         ],
         "additionalInfo": "To track your own ip address.\ntrace -m\nTo track other's ip address for example\nip-tracer -t 127.0.0.1\ntrace -t target-ip\nFor more information.\ntrace"
     },
+"WifihackingWifite": {
+        "title": "Wifi Hacking Tool",
+        "description": "Hack wifi using the stringet tool wifite like expert.",
+        "code": [
+            "git clone https://github.com/derv82/wifite2.git",
+            "cd wifite2",
+            "./Wifite.py"
+        ],
+        "additionalInfo": "Use this tool to hack wifi like expert using advanced ways."
+    },
 "Camphish": {
     "title": "Camera Phishing Tool",
     "description": "This tool captures images from the target's front camera or PC webcam by sending a malicious link.",
