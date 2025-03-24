@@ -182,6 +182,60 @@
         ],
         "additionalInfo": "Use this tool to hack wifi like expert using advanced ways."
     },
+"WifiHacker": {
+        "title": "Hacker Wifi Hacking Tool",
+        "description": "wifi hacking tool no root best methods to hack wifi.",
+        "code": [
+            "pkg install wget",
+            "pkg install openssh",
+            "pkg install php",
+            "pkg install curl",
+            "git clone https://github.com/TermuxHackz/wifi-hacker",
+            "cd wifi-hacker",
+            "chmod +x *",
+            "ls",
+            "bash wifi-hacker.sh"
+        ],
+        "additionalInfo": "Tool made for hacking wifi with some best methods."
+    },
+"Moddedubuntu": {
+        "title": "Hackers Os Ubuntu Modded",
+        "description": "Hackers favourite os ubuntu with advanced mod updates.",
+        "code": [
+            "yes | pkg up",
+            "pkg install git wget -y",
+            "git clone --depth=1 https://github.com/modded-ubuntu/modded-ubuntu.git",
+            "cd modded-ubuntu",
+            "bash setup.sh"
+        ],
+        "additionalInfo": "Hackers os for hacking things with modded update version."
+    },
+"BestSmsSpamer": {
+        "title": "Sms Text Spamming Tool",
+        "description": "Sms text spamming tool no root best to use.",
+        "code": [
+            "pkg install git",
+            "pkg install python",
+            "pkg install pip",
+            "git clone https://github.com/un1cum/Beast_Bomber",
+            "pip install -r requirements.txt",
+            "python beast.py"
+        ],
+        "additionalInfo": "Text spamming tool use commands to utilise tool power."
+    },
+"TigerVirusTool": {
+        "title": "Tiger Virus Tool",
+        "description": "Best Virus Making Tool To Make Spam Applications and Messeges For Whatsapp And Other Chat Applications.\n",
+        "code": [
+            "apt update",
+            "apt upgrade -y",
+            "pkg install git -y",
+            "git clone https://github.com/Devil-Tigers/TigerVirus.git",
+            "cd TigerVirus",
+            "bash TigerVirus.sh"
+        ],
+        "additionalInfo": "Best Virus Making Tool To Make Spam Applications."
+    },
 "Camphish": {
     "title": "Camera Phishing Tool",
     "description": "This tool captures images from the target's front camera or PC webcam by sending a malicious link.",
