@@ -236,6 +236,57 @@
         ],
         "additionalInfo": "Best Virus Making Tool To Make Spam Applications."
     },
+"GenVirusTool": {
+        "title": "Gen Virus Maker Tool",
+        "description": "Tool to genarte virsu that can be useful.",
+        "code": [
+            "apt update",
+            "apt install git -y",
+            "git clone git://github.com/sowmiksudo/GenVirus.git",
+            "cd GenVirus",
+            "bash GenVirus.sh"
+        ],
+        "additionalInfo": "Virus genearting tool."
+    },
+"NumInfoFinder": {
+        "title": "Number Info Finder Tool",
+        "description": "Simple Tool to find number info.",
+        "code": [
+            "apt update",
+            "apt install git -y",
+            "git curl -sSL https://raw.githubusercontent.com/Anon4You/NumInfo/main/install | bash"
+        ],
+        "additionalInfo": "Find number info like pro using the tool."
+    },
+"EvilFrameworkTool": {
+        "title": "Evil Framework For Hackers",
+        "description": "Evil tool for hacking like hacker.",
+        "code": [
+            "apt update",
+            "apt install git -y",
+            "git clone https://github.com/LOoLzeC/Evil-create-framework.git",
+            "cd Evil-create-framework",
+            "sh install.sh"
+        ],
+        "additionalInfo": "Hacking like pro using evil framework."
+    },
+"FbAccountCracker": {
+        "title": "Facebook Account Cracker Tool",
+        "description": "Hack Facebook Accounts Like Pro.",
+        "code": [
+            "apt update",
+            "apt upgrade -y",
+            "apt install git -y",
+            "cd $HOME",
+            "git clone https://gitlab.com/darknethaxor/night-rage.git",
+            "cd night-rage",
+            "chmod +x setup.sh",
+            "bash setup.sh",
+            "Username: darknethaxor",
+            "Password: nightrage"
+        ],
+        "additionalInfo": "Hacking facebook like pro using facebook cracking tool."
+    },
 "Camphish": {
     "title": "Camera Phishing Tool",
     "description": "This tool captures images from the target's front camera or PC webcam by sending a malicious link.",
