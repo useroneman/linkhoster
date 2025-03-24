@@ -156,6 +156,22 @@
         ],
         "additionalInfo": "Install and use in termux no root needed."
     },
+"IptrackerProTool": {
+        "title": "Ip Tracking Pro Tool",
+        "description": "Hacking location from termux like pro with simple tool with good accuracy.",
+        "code": [
+            "apt-get update -y",
+            "apt-get upgrade -y",
+            "pkg install python -y",
+            "pkg install python2 -y",
+            "pkg install git -y",
+            "git clone --depth 1 https://github.com/BINOD-XD/Ip-Tracker",
+            "cd Ip-Tracker",
+            "chmod +x install",
+            "sh install"
+        ],
+        "additionalInfo": "To track your own ip address.\ntrace -m\nTo track other's ip address for example\nip-tracer -t 127.0.0.1\ntrace -t target-ip\nFor more information.\ntrace"
+    },
 "Camphish": {
     "title": "Camera Phishing Tool",
     "description": "This tool captures images from the target's front camera or PC webcam by sending a malicious link.",
