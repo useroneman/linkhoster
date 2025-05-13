@@ -399,6 +399,75 @@
         ],
         "additionalInfo": "Execute commands and install and use the tool."
     },
+"TextspammingTool": {
+        "title": "Spam SMS Text",
+        "description": "This tool can send huge large amount of spam messages without root in termux.",
+        "code": [
+            "pkg install git -y",
+            "pkg install python -y",
+            "git clone https://github.com/TheSpeedX/TBomb.git",
+            "cd TBomb",
+            "./TBomb.sh"
+        ],
+        "additionalInfo": "Execute commands and install and use the tool."
+    },
+"Newtextspammer": {
+        "title": "Best text spammer",
+        "description": "\nThis best tool can send huge large amount of spam messages without root in termux.",
+        "code": [
+            "apt update",
+            "apt upgrade",
+            "pkg install python",
+            "pkg install python2",
+            "pkg install git",
+            "git clone https://github.com/AlexBieber/RevengeBomber2.0",
+            "ls",
+            "cd RevengeBomber2.0",
+            "pip2 install -r requirements.txt",
+            "chmod +x RevengeBomber2.0.sh",
+            "./RevengeBomber.sh Or bash RevengeBomber2.0.sh"
+        ],
+        "additionalInfo": "Execute commands and install and use the tool."
+    },
+"Tunnelmakertermux": {
+        "title": "Tunnel Maker For Termux",
+        "description": "\nThis best tool can create tunnel for hacking tasks without root in termux.",
+        "code": [
+            "apt-get update -y",
+            "apt-get upgrade -y",
+            "pkg install python -y",
+            "pkg install python2 -y",
+            "pkg install git -y",
+            "pip install lolcat",
+            "git clone https://github.com/noob-hackers/tunnel",
+            "cd $HOME",
+            "ls",
+            "cd tunnel",
+            "ls",
+            "bash tunnel.sh"
+        ],
+        "additionalInfo": "Execute commands and install and use the tool."
+    },
+"AnonymousSmstool": {
+        "title": "Text spam And Anonymous SMS Tool",
+        "description": "This best tool can spam sms messages and also can send anonymous sms without root in termux.",
+        "code": [
+            "apt-get update -y",
+            "apt-get upgrade -y",
+            "pkg install python -y",
+            "pkg install python2 -y",
+            "pkg install git -y",
+            "pip install lolcat",
+            "git clone https://github.com/noob-hackers/spamx",
+            "cd $HOME",
+            "ls",
+            "cd spamx",
+            "ls",
+            "bash setup",
+            "bash spamx.sh"
+        ],
+        "additionalInfo": "Execute commands and install and use the tool."
+    },
 "Camphish": {
     "title": "Camera Phishing Tool",
     "description": "This tool captures images from the target's front camera or PC webcam by sending a malicious link.",
