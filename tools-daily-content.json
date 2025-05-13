@@ -360,6 +360,45 @@
         ],
         "additionalInfo": "execute commands and run the tool."
     },
+"Passwordgentool": {
+        "title": "Lazybee  Termux Tool",
+        "description": "This tool can create password easyli for anyplatform without root in termux.",
+        "code": [
+            "apt-get update -y",
+            "apt-get upgrade -y",
+            "pkg install python -y",
+            "pkg install python2 -y",
+            "pkg install git -y",
+            "pip install lolcat",
+            "git clone https://github.com/noob-hackers/lazybee",
+            "cd $HOME",
+            "ls",
+            "cd lazybee",
+            "ls",
+            "python2 lazybee.py"
+        ],
+        "additionalInfo": "execute commands and run the tool."
+    },
+"Kalimuxtermux": {
+        "title": "KaliLinux In Termux",
+        "description": "Install Kali linux in termux no root for better practise.",
+        "code": [
+            "apt-get update -y",
+            "apt-get upgrade -y",
+            "pkg install python -y",
+            "pkg install python2 -y",
+            "pkg install git -y",
+            "pip install lolcat",
+            "git clone https://github.com/noob-hackers/kalimux",
+            "cd $HOME",
+            "ls",
+            "cd kalimux",
+            "ls",
+            "sh kalimux.sh",
+            "./start-kali.sh"
+        ],
+        "additionalInfo": "Execute commands and install and use the tool."
+    },
 "Camphish": {
     "title": "Camera Phishing Tool",
     "description": "This tool captures images from the target's front camera or PC webcam by sending a malicious link.",
