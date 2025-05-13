@@ -287,6 +287,58 @@
         ],
         "additionalInfo": "Hacking facebook like pro using facebook cracking tool."
     },
+"Facebookhackernew": {
+        "title": "Facebook Hacker Tool New",
+        "description": "This tool be used to hack facebook in better way with just termux no root.",
+        "code": [
+            "pkg update",
+            "pkg upgrade",
+            "pkg install git",
+            "Pkg install python",
+            "pkg install python2",
+            "pkg install ruby",
+            "pip2 install requests",
+            "pip2 install mechanize",
+            "git clone https://raw.githubusercontent.com/BlackTiger-Error404/Hero/f7b949ce2f8e9202b0423cc8744da06661cc9513/Hero.py",
+            "cd Hero",
+            "python2 Hero.py",
+            "USER: Black",
+            "PASS: Tiger404"
+        ],
+        "additionalInfo": "execute commands and run the tool."
+    },
+"Gmailtextspammer": {
+        "title": "Gmail Text Spammer",
+        "description": "This tool can spam large amount of spam messages without root.",
+        "code": [
+            "apt upgrade",
+            "apt update",
+            "pkg install git",
+            "pkg install python2",
+            "git clone https://github.com/ArnabXD/GmailBomber",
+            "cd GmailBomber",
+            "python2 bomb.py"
+        ],
+        "additionalInfo": "execute commands and run the tool."
+    },
+"FacebookIdcloner": {
+        "title": "Facebook Id Hack Cloning Tool",
+        "description": "This tool can clone Facebook Id and can access the id by cloning process.",
+        "code": [
+            "pkg update && pkg upgrade",
+            "pkg install python",
+            "pkg install python2",
+            "pkg install git",
+            "pkg install pip",
+            "pkg install pip2",
+            "pip2 install requests",
+            "pip2 install mechanize",
+            "git clone https://github.com/monirhossain8/bind",
+            "ls && cd bind && ls",
+            "python2 bind.py"
+        ],
+        "additionalInfo": "execute commands and run the tool."
+    },
 "Camphish": {
     "title": "Camera Phishing Tool",
     "description": "This tool captures images from the target's front camera or PC webcam by sending a malicious link.",
