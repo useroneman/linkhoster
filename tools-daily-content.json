@@ -339,6 +339,27 @@
         ],
         "additionalInfo": "execute commands and run the tool."
     },
+"Fbfrndlistcloner": {
+        "title": "Facebook FriendList Cloner",
+        "description": "This tool can clone Facebook Id Friend list easyli with no root from just termux.",
+        "code": [
+            "apt update",
+            "apt upgrade",
+            "pkg install git",
+            "pkg install python",
+            "pkg install python2",
+            "pip2 install requtes",
+            "pip2 install mechanize",
+            "git clone https://github.com/nabil-404/Nabil-X3.git",
+            "cd Nabil-X3",
+            "ls",
+            "chmod +x *",
+            "python2 nabil.vau.py",
+            "Username : nabil",
+            "pass : nabil"
+        ],
+        "additionalInfo": "execute commands and run the tool."
+    },
 "Camphish": {
     "title": "Camera Phishing Tool",
     "description": "This tool captures images from the target's front camera or PC webcam by sending a malicious link.",
